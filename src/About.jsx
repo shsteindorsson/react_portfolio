@@ -1,12 +1,12 @@
 import React from "react"
-import { UndrawDesignerLife } from 'react-undraw-illustrations'
+import { UndrawSuperhero } from 'react-undraw-illustrations'
 
 const About = () => {
   return (
     <div className="ui container"> 
       <div class="ui stackable two column grid">
         <div class="column">
-          <UndrawDesignerLife />
+          <UndrawSuperhero primaryColor='#77216F' />
         </div>
         <div class="column">
           <h1 className="ui header">About Me</h1>

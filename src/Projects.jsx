@@ -40,7 +40,7 @@ class Projects extends Component {
       <div className="ui main container">
         <div className="ui stackable two column grid">
           <div className="column">
-            <UndrawDesigner />
+            <UndrawDesigner primaryColor='#E95420' />
           </div>
           <div className="column">
             <h1 className="ui header">My Projects</h1>
