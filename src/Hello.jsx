@@ -1,17 +1,13 @@
-import React from 'react'
+import React from "react"
 import { NavLink, Link } from 'react-router-dom'
 
 const Hello = () => {
   return (
-    <nav className='ui fixed inverted menu'>
-      <div className='ui container'>
-        <Link className='header item' to='/'>My Portfolio</Link>
-        <div className='right menu'>
-          <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/about'>About Me</NavLink>
-          <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/projects'>Projects</NavLink>
-        </div>
-      </div>
-    </nav>
+    <div className="ui main container" id="hello-site">
+      <h1>
+        Greetings, World
+      </h1>
+    </div>
   )
 }
 

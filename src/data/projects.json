@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "My First Website",
-    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+    "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/shs_web.png?raw=true",
     "description": "My first personal website. It has some room for improvement."
   },
   {
