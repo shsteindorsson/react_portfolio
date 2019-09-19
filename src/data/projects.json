@@ -3,36 +3,42 @@
     "id": 1,
     "name": "My First Website",
     "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/shs_web.png?raw=true",
+    "link": "https://shsteindorsson.github.io",
     "description": "My first personal website. It has some room for improvement."
   },
   {
     "id": 2,
     "name": "Fizz Buzz - TDD",
     "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+    "link": "https://github.com/shsteindorsson/fizzbuzz",
     "description": "The first FizzBuzz challenge, written in Ruby and intended to introduce Test Driven Development."
   },
   {
     "id": 3,
     "name": "The BMI Challenge",
     "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+    "link": "https://github.com/shsteindorsson/bmi_challenge",
     "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
   },
   {
     "id": 4,
     "name": "The ATM Challenge",
     "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+    "link": "https://github.com/shsteindorsson/atm_challenge_2019",
     "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
   },
   {
     "id": 5,
     "name": "The Library Challenge",
     "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+    "link": "https://github.com/shsteindorsson/library-challenge",
     "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
   },
   {
     "id": 6,
     "name": "The Address Book",
     "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+    "link": "https://github.com/shsteindorsson/address_book",
     "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
   }
 ]

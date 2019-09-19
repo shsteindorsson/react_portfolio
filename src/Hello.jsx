@@ -9,7 +9,7 @@ const Hello = () => {
         <p>I prefer to work under the hood and let other people deal with the exterior.</p>  
       </div>
       <br></br>
-      <img src="https://github.com/shsteindorsson/shsteindorsson.github.io/blob/master/images/8bit_shs.png?raw=true"></img>
+      <img id="img-hello" src="https://github.com/shsteindorsson/shsteindorsson.github.io/blob/master/images/8bit_shs.png?raw=true"></img>
     </div>
   )
 }
