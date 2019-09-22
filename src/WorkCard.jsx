@@ -10,16 +10,14 @@ const WorkCard = (props) => {
         </div>
         <div className="content">
           <h3 className="header">{work.company}</h3>
-          {/*<div className="meta">{work.role}</div>*/}
           <div className="description">{work.description}</div>
         </div>
         <div className="extra content">
           <span className="right floated">
-            Right side
+            {work.time}
           </span>
           <span>
-            <i className="user icon"></i>
-            Nr. {work.id}
+            <a href={work.link} target="_blank"><i className="linkify icon"></i></a>
           </span>
         </div>
       </div>

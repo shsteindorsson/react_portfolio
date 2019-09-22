@@ -1,16 +1,28 @@
 import React from "react"
-import { UndrawMaintenance } from 'react-undraw-illustrations'
+import { UndrawWelcome } from 'react-undraw-illustrations'
 
 const About = () => {
   return (
     <div className="ui container"> 
       <div className="ui stackable two column grid">
         <div className="column">
-          <UndrawMaintenance primaryColor='#77216F' />
+          <UndrawWelcome primaryColor='#77216F' />
         </div>
         <div className="column">
-          <h1 className="ui header">About Me</h1>
-          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          <h1 className="ui header">About the man</h1>
+          <p>
+            Born in Iceland and grew up on the north-east coast in a small town called Vopnafjörður.
+          </p>
+          <p>
+            Classically trained by a Nintendo Entertainment System. First PC was a 486 running Windows 3.11. Is an avid 
+            GNU/Linux user today and cares deeply about the philosophy behind free and open source software.
+          </p>
+          <p>
+            Followed his wife to Sweden, along with their son, during the summer of 2019. Whether or not that was a good idea remains to be seen.
+          </p>
+        </div>
+        <div>
+          <img src="https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/classically_trained.png?raw=true" />
         </div>
       </div>
     </div>

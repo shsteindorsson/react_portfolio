@@ -4,7 +4,7 @@
     "name": "My First Website",
     "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/shs_web.png?raw=true",
     "link": "https://shsteindorsson.github.io",
-    "description": "My first personal website. It has some room for improvement."
+    "description": "My first personal website, all HTML and CSS. It has some room for improvement."
   },
   {
     "id": 1,
@@ -18,27 +18,27 @@
     "name": "The BMI Challenge",
     "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/bmi_challenge.png?raw=true",
     "link": "https://github.com/shsteindorsson/bmi_challenge",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    "description": "Written in plain JavaScript. The BMI Calculator enables users to calculate their Body Mass Index, based either on metric or imperial values."
   },
   {
     "id": 3,
     "name": "The ATM Challenge",
     "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
     "link": "https://github.com/shsteindorsson/atm_challenge_2019",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    "description": "Written in Ruby. This program simulates the back-end functionality of an interaction with a simplified ATM"
   },
   {
     "id": 4,
     "name": "The Library Challenge",
     "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
     "link": "https://github.com/shsteindorsson/library-challenge",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    "description": "Written in Ruby. This program allows a user to view available books and perform checkouts."
   },
   {
     "id": 5,
     "name": "The Address Book",
     "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/address_book.png?raw=true",
     "link": "https://github.com/shsteindorsson/address_book",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    "description": "Written in JavaScript. The program enables users to add a contact to an address book by filling out a form."
   }
 ]

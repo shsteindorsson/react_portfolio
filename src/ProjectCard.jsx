@@ -10,14 +10,15 @@ const ProjectCard = (props) => {
         </div>
         <div className="content">
           <h3 className="ui header">{project.name}</h3>
-
           <div className="description">
             {project.description}
             <br />
-            <a href={project.link}>
-              <i className="github alternate icon"></i>
-              Visit Github repo
-            </a>
+            <div className="extra content" id="link-div">
+              <a href={project.link}>
+                <i className="github alternate icon"></i>
+                Visit Github repo
+              </a>
+            </div>
           </div>
         </div>
       </div>

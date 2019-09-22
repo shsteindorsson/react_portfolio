@@ -14,11 +14,11 @@ const EducationCard = (props) => {
         </div>
         <div className="extra content">
           <span className="right floated">
-            Right side
+            {education.time}
+            <i className="university icon"></i>
           </span>
           <span>
-            <i className="user icon"></i>
-            Nr. {education.id}
+            <a href={education.link} target="_blank"><i className="linkify icon"></i></a>
           </span>
         </div>
       </div>

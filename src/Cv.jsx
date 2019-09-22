@@ -28,7 +28,6 @@ class Cv extends Component {
           edu: response.data
         })
       })
-
     }
 
   render() {
@@ -63,8 +62,13 @@ class Cv extends Component {
             <UndrawBackToSchool primaryColor='#E95420' />
           </div>
           <div className="column">
-            <h1 className="ui header">My Curriculum vitae</h1>
-            <p>I bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <h1 className="ui header">Curriculum Vitae</h1>
+            <p>
+              Diverce, not-so-engaging personality which leaves a strong aftertaste of success. Enjoys taking care of problems and getting away with ridiculous things. Also, has a good sense of humor (IMHO). Enthusiastic about learning, teaching and technology.<br />
+            </p>
+            <p>
+              Is allowed to drive a forklift.
+            </p>
           </div>
         </div>
         <h2 className="ui header">Work experience</h2>

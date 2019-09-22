@@ -3,9 +3,10 @@
     "id": 0,
     "company": "Breiðholtsskóli",
     "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/breidholtsskoli.png?raw=true",
-    "role": "Class teacher",
+    "role": "Teacher",
     "description": "Taught math at lower-secondary level and ITC at primary level.",
-    "time": "2018-2019"
+    "time": "2018-2019",
+    "link": "https://breidholtsskoli.is"
   },
   {
     "id": 1,
@@ -13,7 +14,8 @@
     "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/saemo.png?raw=true",
     "role": "Teacher",
     "description": "Taught 6th grade",
-    "time": "2017-2018"
+    "time": "2017-2018",
+    "link": "https://saemundarskoli.is"
   },
   {
     "id": 2,
@@ -21,7 +23,8 @@
     "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/eir_logo.png?raw=true",
     "role": "Maintenance and tech-support",
     "description": "A temporary job where I repaired things and solved a few problems.",
-    "time": "2016 (summer)"
+    "time": "2016",
+    "link": "https://eir.is/"
   },
   {
     "id": 3,
@@ -29,22 +32,25 @@
     "image": "https://www.rannis.is/media/logo/Kennimark-A2.jpg",
     "role": "Researcher",
     "description": "Worked on a research regarding national curriculums in Iceland and England.",
-    "time": "2015"
+    "time": "2015",
+    "link": "https://www.rannis.is"
   },
   {
     "id": 4,
     "company": "Össur hf",
-    "image": "https://assets.ossur.com/library/17181/",
+    "image": "https://profisee.com/wp-content/uploads/Profisee_Documents_35CaseStudies%C3%96ssur_02Thumbnail_03_1920x1080.jpg",
     "role": "Machinist (Team leader)",
     "description": "Worked with a team which managed 11-12 CNC-machines",
-    "time": "2008-2014"
+    "time": "2008-2014",
+    "link": "https://www.ossur.is"
   },
   {
     "id": 5,
     "company": "ÁTVR",
     "image": "https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/atvr_logo.png?raw=true",
-    "role": "",
-    "description": "Worked with a team which managed 11-12 CNC-machines",
-    "time": "2007"
+    "role": "Stockroom manager",
+    "description": "Sold alchohol to the people",
+    "time": "2007",
+    "link": "https://www.vinbudin.is/english/home.aspx"
   }
 ]
