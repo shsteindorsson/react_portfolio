@@ -21,8 +21,8 @@ const About = () => {
             Followed his wife to Sweden, along with their son, during the summer of 2019. Whether or not that was a good idea remains to be seen.
           </p>
         </div>
-        <div>
-          <img src="https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/classically_trained.png?raw=true" />
+        <div className="ui centered large image">
+          <img id="about-img" src="https://github.com/shsteindorsson/react_portfolio/blob/master/src/img/classically_trained.png?raw=true" />
         </div>
       </div>
     </div>
