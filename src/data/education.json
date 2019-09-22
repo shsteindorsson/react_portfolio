@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "institution": "University of Iceland",
+    "image": "http://honnunarstadall.hi.is/sites/honnunarstadall.hi.is/files/admin/Prentupplausn/HI/hi_logo_negativ_eng_vert.jpg",
+    "subject": "Educational Science - Bachelor's degree",
+    "link": "https://www.hi.is",
+    "time": "2015"
+  },
+  {
+    "id": 1,
+    "institution": "University of Iceland",
+    "image": "http://honnunarstadall.hi.is/sites/honnunarstadall.hi.is/files/admin/Prentupplausn/HI/hi_logo_negativ_eng_vert.jpg",
+    "subject": "Educational Science - Master's degree",
+    "link": "https://www.hi.is",
+    "time": "2017"
+  },
+  {
+    "id": 2,
+    "institution": "Borgarholtsskóli",
+    "image": "https://www.bhs.is/media/merki/share/logo-i-lit.png",
+    "subject": "Metal turning/machining",
+    "link": "https://www.bhs.is",
+    "time": "2008"
+  },
+  {
+    "id": 3,
+    "institution": "Tækniskólinn",
+    "image": "https://kc0eiuhlnmqwdxy1ylzte9ii-wpengine.netdna-ssl.com/uk/wp-content/uploads/sites/2/2017/05/taekniskolinn.png",
+    "subject": "A masters license for metal turning/machining",
+    "link": "https://www.tskoli.is",
+    "time": "2010"
+  },
+  {
+    "id": 4,
+    "institution": "Craft Academy",
+    "image": "https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2564/s300/craftacademylogo.png",
+    "subject": "Full Stack Web Developer Bootcamp",
+    "link": "https://www.craftacademy.se",
+    "time": "2019"
+  }
+]

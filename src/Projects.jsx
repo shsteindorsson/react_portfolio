@@ -34,7 +34,6 @@ class Projects extends Component {
       })
     }
 
-
     return (
 
       <div className="ui main container" id="projects-div">
@@ -44,7 +43,13 @@ class Projects extends Component {
           </div>
           <div className="column">
             <h1 className="ui header">My Projects</h1>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <p>
+              Below, one can behold a few of the projects from the Introduction course as well as from the Bootcamp.<br />
+            </p>
+            <p>
+              Most of the projects are either written in JavaScript or Ruby.
+            </p>
+
           </div>
         </div>
         <div className="ui stackable four column grid">
