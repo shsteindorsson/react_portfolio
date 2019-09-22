@@ -1,34 +1,34 @@
 import React, { Component } from "react"
 import axios from "axios"
-import ProjectCard from "./ProjectCard"
-import { UndrawDesigner } from "react-undraw-illustrations"
+import WorkCard from "./WorkCard"
 
-class Projects extends Component {
+
+class Cv extends Component {
   constructor() {
     super();
     this.state = {
-      projects: []
+      cv: []
     };
   }
 
   componentDidMount() {
-    axios.get('./src/data/projects.json')
+    axios.get('./src/data/work_exp.json')
       .then(response => {
         this.setState({
-          projects: response.data
+          cv: response.data
         })
       })
     }
 
   render() {
-    const projects = this.state.projects
-    let projectsList
+    const cv = this.state.cv
+    let cvList
 
-    if (projects.length > 0) {
-      projectsList = projects.map(project => {
+    if (cv.length > 0) {
+      cvList = cv.map(work => {
         return (
-          <div key={project.id}>
-            <ProjectCard project={project} />
+          <div key={work.id}>
+            <WorkCard work={work} />
           </div>
         )
       })
@@ -39,19 +39,20 @@ class Projects extends Component {
       <div className="ui main container" id="projects-div">
         <div className="ui stackable two column grid">
           <div className="column">
-            <UndrawDesigner primaryColor='#E95420' />
+            
           </div>
           <div className="column">
-            <h1 className="ui header">My Projects</h1>
+            <h1 className="ui header">My Curriculum vitae</h1>
             <p>I bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
           </div>
         </div>
+        <h2 className="ui header">Work experience</h2>
         <div className="ui stackable four column grid">
-          {projectsList}
+          {cvList}
         </div>
       </div>
     )
   }
 }
 
-export default Projects
+export default Cv

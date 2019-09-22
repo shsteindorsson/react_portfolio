@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "company": "Össur hf",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Anastas_Jovanovi%C4%87_%28self-portrait%29.jpg",
+    "role": "Machinist (Team leader)",
+    "description": "Add text..."
+  },
+  {
+    "id": 2,
+    "company": "Rannís",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Anastas_Jovanovi%C4%87_%28self-portrait%29.jpg",
+    "role": "Researcher",
+    "description": "Add text..."
+  },
+  {
+    "id": 3,
+    "company": "Sæmundarskóli",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Anastas_Jovanovi%C4%87_%28self-portrait%29.jpg",
+    "role": "Teacher",
+    "description": "Add text..."
+  },
+  {
+    "id": 4,
+    "company": "Breiðholtsskóli",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Anastas_Jovanovi%C4%87_%28self-portrait%29.jpg",
+    "role": "Class teacher",
+    "description": "Add text..."
+  }
+]

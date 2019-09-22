@@ -4,18 +4,18 @@ const ProjectCard = (props) => {
   let project = props.project;
   return (
     <>
-      <div class="ui card" id="card-div">
-        <div class="image">
+      <div className="ui card" id="card-div">
+        <div className="image">
           <img src={project.image} />
         </div>
-        <div class="content">
-          <h3 class="ui header">{project.name}</h3>
+        <div className="content">
+          <h3 className="ui header">{project.name}</h3>
 
-          <div class="description">
+          <div className="description">
             {project.description}
-            <br></br>
+            <br />
             <a href={project.link}>
-              <i class="github alternate icon"></i>
+              <i className="github alternate icon"></i>
               Visit Github repo
             </a>
           </div>
