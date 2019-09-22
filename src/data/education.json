@@ -2,11 +2,19 @@
   {
     "id": 1,
     "institution": "University of Iceland",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
     "subject": "Educational Science (B.ed. & M.ed.)"
   },
   {
     "id": 2,
     "institution": "Borgarholtsskóli",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
     "subject": "Metal turning/machining"
+  },
+  {
+    "id": 3,
+    "institution": "Tækniskólinn",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    "subject": "A masters license for metal turning/machining"
   }
 ]

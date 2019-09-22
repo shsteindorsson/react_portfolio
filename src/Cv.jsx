@@ -1,13 +1,16 @@
 import React, { Component } from "react"
 import axios from "axios"
 import WorkCard from "./WorkCard"
+import EducationCard from "./EducationCard"
+import { UndrawBackToSchool } from "react-undraw-illustrations"
 
 
 class Cv extends Component {
   constructor() {
     super();
     this.state = {
-      cv: []
+      workExp: [],
+      edu: []
     };
   }
 
@@ -15,17 +18,27 @@ class Cv extends Component {
     axios.get('./src/data/work_exp.json')
       .then(response => {
         this.setState({
-          cv: response.data
+          workExp: response.data
         })
       })
+
+    axios.get('./src/data/education.json')
+      .then(response => {
+        this.setState({
+          edu: response.data
+        })
+      })
+
     }
 
   render() {
-    const cv = this.state.cv
-    let cvList
+    const workExp = this.state.workExp
+    const edu = this.state.edu
+    let workExpList
+    let eduList      
 
-    if (cv.length > 0) {
-      cvList = cv.map(work => {
+    if (workExp.length > 0) {
+      workExpList = workExp.map(work => {
         return (
           <div key={work.id}>
             <WorkCard work={work} />
@@ -33,13 +46,21 @@ class Cv extends Component {
         )
       })
     }
-
+    if (edu.length > 0) {
+      eduList = edu.map(education => {
+        return (
+          <div key={education.id}>
+            <EducationCard education={education} />
+          </div>
+        )
+      })
+    }
     return (
 
       <div className="ui main container" id="projects-div">
         <div className="ui stackable two column grid">
           <div className="column">
-            
+            <UndrawBackToSchool primaryColor='#E95420' />
           </div>
           <div className="column">
             <h1 className="ui header">My Curriculum vitae</h1>
@@ -48,7 +69,11 @@ class Cv extends Component {
         </div>
         <h2 className="ui header">Work experience</h2>
         <div className="ui stackable four column grid">
-          {cvList}
+          {workExpList}
+        </div>
+        <h2 className="ui header">Education</h2>
+        <div className="ui stackable four column grid">
+          {eduList}
         </div>
       </div>
     )
